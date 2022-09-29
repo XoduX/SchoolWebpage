@@ -1,0 +1,130 @@
+#navbar {
+  background-color: #051242;
+  
+}
+.nav-link {
+   color: #ffff;
+   
+   
+}
+body{
+   font-family: 'Urbanist', sans-serif;  
+   background-color: #051242;
+}
+
+.dropdown:hover{
+   background-color: #007bff;
+  
+}
+.dropdown-menu{
+   background-color: #051242; 
+}
+.dropdown-item:hover {
+   background-color: #007bff;
+}
+#nav-link {
+display: inline-block;
+position: relative;
+
+}
+
+#nav-link:after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #0087ca;
+transform-origin: bottom right;
+transition: transform 0.30s ease-out;
+}
+
+#nav-link:hover:after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}
+#col2 {
+height: fit-content;
+width:fit-content;
+border-radius: 5px;
+text-align: center;
+color: #051242;
+transition: 0.15s;
+cursor: pointer;
+
+
+
+}
+
+#col2:hover{
+transform: scale(1.06);
+}
+#headerSw{
+background-color: #051242;
+color: white;
+
+}
+#headerSw1{
+background-color: #051242;
+color: white;
+text-align: center;
+
+}
+#tablebook{
+background-color: white;
+border-radius: 5px;
+width:auto;
+margin: auto;
+
+}
+#headerSw2{
+text-align: center;}
+a{
+color: white;
+text-decoration: none;
+}
+a:hover{
+color: white;
+}
+
+#buttons{
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.jumbotron {
+  color: white;
+  background-image: url("https://images.summitmedia-digital.com/esquiremagph/images/2022/08/18/297656280_3182021442113872_5537758054148325715_n.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ispc{
+  margin-top: 4em;
+  
+}
+#inf{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing:2px ;
+}
+#info{
+  text-align: center;
+  color: white;
+ 
+  letter-spacing:2px ;
+}
+#box{
+  padding-top: 4em;
+  height: 100vh;
+}
